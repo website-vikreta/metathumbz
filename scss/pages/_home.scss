@@ -1,0 +1,275 @@
+nav {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  [class*="col-"] {
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    &:last-child {
+      //  padding: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .para {
+    margin-top: 2rem;
+  }
+
+  .count-down {
+    margin-block: 4rem;
+
+    .sub-heading {
+      @include font-weight(medium);
+    }
+  }
+
+  //   counter styles
+  .counter {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 1.25rem;
+
+    span {
+      font-size: 3rem;
+      @include font-weight(bold);
+      font-family: $font-chakra;
+
+      display: block;
+      padding: 10px 5px;
+      display: grid;
+      place-content: center;
+      line-height: 100%;
+    }
+    :is(.days, .hour, .min, .sec) > div {
+      display: flex;
+      gap: 5px;
+
+      span {
+        width: 3rem;
+        height: 5rem;
+      }
+    }
+    :is(.days, .hour, .min) span {
+      background: $color-blue;
+    }
+    :is(.sec) span {
+      background: #f1f1f1;
+      color: $color-dark;
+    }
+    p {
+      text-align: center;
+      font-family: $font-roboto;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 5px;
+    }
+  }
+
+  .btn.twitter {
+    --color: #00acee;
+  }
+
+  // thumbz animation wrapper graphics div
+  .thumb-card-wrapper {
+    $card-count: 16;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    .img-wrapper {
+      opacity: 0;
+      animation: animateImg 10s infinite;
+      position: relative;
+    }
+
+    .thumb-card {
+      position: relative;
+      background: #080918;
+      animation: animateCard 10s infinite step-end;
+      @for $i from 1 to $card-count {
+        &:nth-child(#{$i}) {
+          animation-delay: (($i * random($limit: 100)) % $card-count) * 0.5s;
+
+          .img-wrapper {
+            animation-delay: (($i * random($limit: 100)) % $card-count) *
+              random($limit: 5) +
+              s;
+          }
+        }
+      }
+    }
+    .thumb-card .img-wrapper {
+      position: relative;
+      pointer-events: none;
+    }
+    .thumb-card img {
+      pointer-events: auto;
+    }
+    .thumb-card .img-wrapper:hover {
+      transform: scale(1.2);
+      z-index: 1;
+      box-shadow: 0 0 100px 0 #000;
+    }
+  }
+
+  // responsive design
+  @include responsive(large) {
+    [class*="col-"] {
+      min-height: 80vh;
+    }
+
+    .heading {
+      font-size: 4rem;
+    }
+    .para {
+      font-size: 0.95rem;
+      line-height: calc(0.95rem * 1.5rem);
+    }
+
+    .count-down {
+      margin-block: 3rem;
+      .sub-heading {
+        font-size: 1.3rem;
+      }
+    }
+    .counter {
+      gap: 5px;
+
+      :is(.days, .hour, .min, .sec) > div {
+        display: flex;
+        gap: 5px;
+
+        span {
+          width: 2.8rem;
+          height: 4rem;
+        }
+      }
+
+      p {
+        font-size: 0.8rem;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  @include responsive(medium) {
+    padding-block: 100px;
+    .content {
+      padding-right: 30px;
+      width: 100%;
+    }
+    .row {
+      align-items: center !important;
+      margin: initial !important;
+    }
+    [class*="col-"] {
+      min-height: initial;
+      &:last-child {
+        //  padding: 0;
+        position: initial;
+      }
+    }
+
+    .counter {
+      span {
+        font-size: 2rem;
+      }
+      :is(.days, .hour, .min, .sec) > div {
+        span {
+          width: 2rem;
+          height: 3.5rem;
+        }
+      }
+      p {
+        font-size: 0.7rem;
+      }
+    }
+
+    // thumbz cards
+    .thumb-card-wrapper {
+      $card-count: 16;
+      $new-card-count: 9;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      .thumb-card {
+        @for $i from $new-card-count to $card-count {
+          &:nth-child(#{$i}) {
+            display: none !important;
+          }
+        }
+
+        @for $i from 1 to $new-card-count {
+          &:nth-child(#{$i}) {
+            animation-delay: (($i * random($limit: 100)) % $new-card-count) *
+              0.5s;
+
+            .img-wrapper {
+              animation-delay: (($i * random($limit: 100)) % $new-card-count) *
+                random($limit: 5) +
+                s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include responsive(tablet) {
+    padding-block: 30px;
+    .row {
+      flex-direction: column-reverse;
+    }
+    .content {
+      padding-top: 50px;
+      padding-right: 0;
+    }
+    .counter {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@keyframes animateCard {
+  0% {
+    background: #080918;
+  }
+  5% {
+    background: #10183a;
+  }
+  35% {
+    background: #10183a;
+  }
+  40% {
+    background: #000;
+  }
+  70% {
+    background: #000;
+  }
+  80% {
+    background: #080918;
+  }
+  100% {
+    background-color: #080918;
+  }
+}
+@keyframes animateImg {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
