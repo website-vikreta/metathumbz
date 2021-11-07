@@ -13,24 +13,5 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("stick-to-top");
   }
 
-  if (currentScroll <= 0) {
-    navbar.classList.remove("scroll-up");
-  }
-
-  if (
-    currentScroll > previousScroll &&
-    !navbar.classList.contains("scroll-down")
-  ) {
-    navbar.classList.remove("scroll-up");
-    navbar.classList.add("scroll-down");
-  }
-  if (
-    currentScroll < previousScroll &&
-    navbar.classList.contains("scroll-down")
-  ) {
-    navbar.classList.remove("scroll-down");
-    navbar.classList.add("scroll-up");
-  }
-
   previousScroll = currentScroll;
 });
