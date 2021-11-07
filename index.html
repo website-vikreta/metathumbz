@@ -18,47 +18,48 @@
 	<link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 
+	<!-- particle js css -->
+	<!-- <link rel="stylesheet" href="./vendor/particlejs/css/style.css"> -->
+
 	<!-- custom css -->
 	<link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
-	<nav class="navbar px-0 navbar-light bg-light">
-		<div class="container">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-light stick-to-top" id="navbar">
+		<div class="container px-0">
+			<a class="navbar-brand" href="/">
+				<img src="./assets/logo.png" alt="MetaThumbz Logo" class="img-fluid nav-img">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse" id="navbarText">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">Home </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
+						<a class="nav-link" href="#">Roadmap</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
+						<a class="nav-link" href="#">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Inventory</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Rarity</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Faq</a>
 					</li>
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
+				<span class="navbar-text">
+					<a href="#" target="_BLANK"><i class="bi bi-discord"></i></a>
+					<a href="#" target="_BLANK"><i class="bi bi-twitter"></i></a>
+				</span>
 			</div>
 		</div>
 	</nav>
@@ -233,11 +234,208 @@
 		</div>
 	</section>
 
+	<!-- ? ================================================== -->
+	<!-- ? ABOUT US -->
+	<!-- ? ================================================== -->
+	<section class="about-us">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-12 offset-lg-1 offset-md-1">
+					<div class="video-wrapper">
+						<div class="thumbnail"></div>
+						<a href="#" class="play"><i class="bi bi-play-fill"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6 col-12 offset-lg-1">
+					<div class="title">
+						<h4 class="sub-heading">Introduction to</h4>
+						<h2 class="heading">
+							<div class="word">
+								<span>M</span>
+								<span>e</span>
+								<span>t</span>
+								<span>a</span>
+							</div>
+							<div class="word">
+								<span>T</span>
+								<span>h</span>
+								<span>u</span>
+								<span>m</span>
+								<span>b</span>
+								<span>z</span>
+							</div>
+						</h2>
+					</div>
+					<p class="para">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. nulla ut maecenas vulputate quis velit arcu.
+						Et libero nisl tempor convallis aliquet neque. Libero non tortor cursus nisi, amet scelerisque
+						facilisis id. Quam mattis nunc velit eu adipiscing.
+					</p>
+					<p class="para ">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla ut maecenas vulputate quis
+						velit arcu. Et libero nisl tempor convallis aliquet neque. Libero non tortor cursus nisi, Et libero
+						nisl tempor convallis aliquet neque. Libero non tortor cursus nisi scelerisque facilisis id. Quam
+						mattis nunc velit eu adipiscing.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ? ================================================== -->
+	<!-- ? MINTING -->
+	<!-- ? ================================================== -->
+	<section class="minting">
+		<!-- particle js div -->
+		<div id="particles-js"></div>
+
+		<!-- content -->
+		<div class="container content">
+			<div class="row">
+				<div class="col-lg-6 col-md-8 col-12">
+					<!-- title -->
+					<div class="title">
+						<h4 class="sub-heading">Meta Thumbz</h4>
+						<h1 class="heading">
+							<div class="word">
+								<span>M</span>
+								<span class="i">i</span>
+								<span>n</span>
+								<span>t</span>
+								<span class="i">i</span>
+								<span>n</span>
+								<span>g</span>
+							</div>
+						</h1>
+					</div>
+
+					<!-- transaction -->
+					<div class="transaction">
+						<!-- form for minting -->
+						<form action="#" class="transaction-form" id="mintingForm">
+							<div class="controls">
+								<button type="button" disabled class="btn minus" id="minus"><i
+										class="bi bi-dash-lg"></i></button>
+								<input type="text" name="" id="mintingNumber" min="0" max="20" class="form-control" value="0"
+									placeholder="0">
+								<button type="button" class="btn plus" id="plus"><i class="bi bi-plus-lg"></i></button>
+							</div>
+							<button class="btn btn-primary w-100 mt-3">Connect Wallet</button>
+						</form>
+
+						<!-- sale starts soon -->
+
+						<!-- sale is ended -->
+						<div class="sale-ended">
+							<div class="animation">
+								<lottie-player src="https://assets6.lottiefiles.com/packages/lf20_ld8FMO.json"
+									background="transparent" speed="1" loop autoplay></lottie-player>
+								</lottie-player>
+							</div>
+							<div class="text">
+								<h2>Oops... Sale Ended</h2>
+								<p class="para">Stay tuned for the next sale</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- seperator & key points -->
+					<hr class="seperator">
+					<ul class="key-points">
+						<li>0.05 Eth per NFT + Gas fee</li>
+						<li>Maximum 20 Thumbz per transaction</li>
+						<li>We won’t accept your funds if we are sold out. So no more throwing your SOL into the void, unsure
+							if there are any more NFTs left to be minted</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- ? ================================================== -->
+	<!-- ? COMMUNITY -->
+	<!-- ? ================================================== -->
+	<section class="community">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-12 illustration">
+					<div class="illustration-img">
+						<img src="./assets/community-hands.png" alt="Community Hands" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-7 col-12 offset-lg-1 offset-md-1">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-12 discord">
+							<div class="title">
+								<h2 class="heading">
+									<div class="word">
+										<span>J</span>
+										<span>o</span>
+										<span>i</span>
+										<span>n</span>
+									</div>
+									<div class="word">
+										<span>O</span><span>u</span><span>r</span>
+									</div>
+									<div class="word">
+										<span>D</span><span>i</span><span>s</span><span>c</span><span>o</span><span>r</span><span>d</span>
+									</div>
+								</h2>
+							</div>
+							<p class="para">We always develop our community to reach new heights!</p>
+
+							<a href="#" class="btn btn-primary">
+								<i class="bi bi-discord"></i> Join Server
+							</a>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-12 offset-lg-4 offset-md-4 newsletter">
+							<div class="title">
+								<h4 class="sub-heading">Subscribe</h4>
+								<h2 class="heading">
+									<div class="word">
+										<span>T</span><span>o</span>
+									</div>
+									<div class="word">
+										<span>N</span><span>e</span><span>w</span><span>s</span><span>l</span><span>e</span><span>t</span><span>t</span><span>e</span><span>r</span>
+									</div>
+								</h2>
+							</div>
+
+							<p class="para">Receive updates on all upcoming events</p>
+
+							<form action="#" class="subscribe">
+								<input type="text" placeholder="Your Email">
+								<button class="btn btn-primary">Subscribe Now</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-ld-1 col-md-1 offset-lg-1 offset-md-1 col-12 floating">
+					<div class="floating-heading">
+						<img src="./assets/community-text.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
 	<!-- adding jquery -->
 	<script src="./vendor/jquery/jquery.min.js"></script>
 
 	<!-- bootstrap js -->
 	<script src="./vendor/bootstrap/bootstrap.min.js"></script>
+
+	<!-- particlejs js -->
+	<script src="./vendor/particlejs/js/particles.min.js"></script>
+	<script src="./vendor/particlejs/js/app.js"></script>
+
+	<!-- Lottie Player -->
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 	<!-- custom js -->
 	<script src="./js/main.js"></script>

@@ -17,6 +17,11 @@ h6 {
   font-family: $font-montserrat;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 1300px;
 

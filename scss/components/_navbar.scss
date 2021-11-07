@@ -1,0 +1,126 @@
+.navbar {
+  background: $color-dark !important;
+  padding-block: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 1s ease-in-out;
+
+  //   nav logo
+  .navbar-brand {
+    * {
+      transition: all 2s ease-in-out;
+    }
+
+    margin-left: -2px;
+    //  width: 150px;
+    padding-block: 1rem;
+    position: relative;
+
+    .nav-img {
+      width: 150px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform-origin: center;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      background: $color-blue;
+      z-index: -1;
+
+      border-bottom-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+      transition: 0.5s ease;
+    }
+  }
+
+  //   nav items
+  .navbar-nav {
+    .nav-item {
+      margin: 0 0.8rem;
+      padding-block: 0.5rem;
+      a,
+      &.active a {
+        color: $color-primary;
+      }
+      font-family: $font-roboto;
+      font-size: 1.1rem;
+      @include font-weight(regular);
+
+      &.active {
+        border-bottom: 3px solid $color-blue;
+      }
+
+      &:hover a {
+        color: $color-blue !important;
+      }
+    }
+  }
+
+  //   social liks
+  .navbar-text {
+    display: flex;
+    gap: 1.5rem;
+    a {
+      color: $color-primary !important;
+      font-size: 1.1rem;
+    }
+
+    a:hover {
+      color: $color-blue !important;
+    }
+  }
+
+  //   Stick to top
+  &.stick-to-top {
+    .navbar-brand {
+      &::after {
+        width: 100% + 10%;
+        height: 100% + 5%;
+      }
+
+      .nav-img {
+        margin-left: 5%;
+        transition: 1s ease;
+      }
+    }
+
+    .navbar-nav {
+      margin-left: 3rem;
+      transition: 1s ease;
+    }
+  }
+
+  //   scroll down
+  &.scroll-down,
+  &.scroll-up {
+    .nav-img {
+      width: 80px;
+    }
+    .navbar-brand {
+      padding-block: 1rem;
+    }
+    .navbar-nav {
+      margin-left: 1rem;
+
+      .nav-item .nav-link {
+        padding: 0.1rem !important;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &.scroll-down {
+    top: -100%;
+  }
+  &.scroll-up {
+    top: 0;
+  }
+}

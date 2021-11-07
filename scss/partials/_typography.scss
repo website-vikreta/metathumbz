@@ -32,9 +32,14 @@
   }
 }
 
+h2.heading {
+  --font-size: 4rem;
+}
+
 .sub-heading {
   font-family: $font-roboto;
   line-height: 100%;
   font-size: 1.5rem;
   @include font-weight(regular);
+  margin: 0;
 }
