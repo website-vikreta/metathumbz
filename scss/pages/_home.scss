@@ -704,6 +704,7 @@
 // *********************************************
 .team {
   text-align: center;
+  padding-block: 50px 100px;
 
   .heading {
     justify-content: center;
@@ -752,12 +753,12 @@
       }
 
       &:hover {
-        animation: bounce 0.5s infinite ease alternate;
+        animation: bounce1 0.5s infinite ease alternate;
       }
     }
   }
 
-  @keyframes bounce {
+  @keyframes bounce1 {
     from {
       transform: translateY(0px);
     }
