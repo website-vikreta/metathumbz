@@ -3,15 +3,20 @@
   .heading {
     justify-content: center;
   }
-
+  .accordion {
+    max-width: 1000px;
+    margin: auto;
+  }
   .card {
     border: none;
     border-radius: 0;
     color: $color-dark;
+    margin-block: 1rem;
   }
 
   .card-header {
     background: $color-light !important;
+    padding-block: 0.5rem;
   }
   .card-body {
     font-family: $font-chakra;
@@ -20,10 +25,15 @@
     background: none;
     border: none !important;
     border-radius: 0;
-    display: initial;
+    justify-content: flex-start;
     text-decoration: none;
-    color: $color-primary;
+    color: #eee;
+    font-family: $font-roboto;
     @include font-weight(regular);
     padding: 0;
+
+    i {
+      font-size: 0.8rem;
+    }
   }
 }
