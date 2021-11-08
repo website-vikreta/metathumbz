@@ -483,73 +483,73 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
+  -webkit-animation-delay: 45s;
+          animation-delay: 45s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(2) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
+.hero .thumb-card-wrapper .thumb-card:nth-child(3) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
+  -webkit-animation-delay: 35s;
+          animation-delay: 35s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(4) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(5) {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(6) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
   -webkit-animation-delay: 32s;
           animation-delay: 32s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(2) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-  -webkit-animation-delay: 52s;
-          animation-delay: 52s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(4) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
-  -webkit-animation-delay: 7.5s;
-          animation-delay: 7.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-  -webkit-animation-delay: 50s;
-          animation-delay: 50s;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
@@ -563,43 +563,43 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(9) {
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(9) .img-wrapper {
-  -webkit-animation-delay: 11s;
-          animation-delay: 11s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(10) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(11) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
   -webkit-animation-delay: 40s;
           animation-delay: 40s;
 }
 
+.hero .thumb-card-wrapper .thumb-card:nth-child(10) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(11) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
+  -webkit-animation-delay: 75s;
+          animation-delay: 75s;
+}
+
 .hero .thumb-card-wrapper .thumb-card:nth-child(12) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(12) .img-wrapper {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(13) {
@@ -608,18 +608,18 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(13) .img-wrapper {
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(14) {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(14) .img-wrapper {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) {
@@ -628,17 +628,17 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) .img-wrapper {
-  -webkit-animation-delay: 36s;
-          animation-delay: 36s;
+  -webkit-animation-delay: 44s;
+          animation-delay: 44s;
 }
 
 .hero .thumb-card-wrapper .thumb-card .img-wrapper {
   position: relative;
   pointer-events: none;
-  -webkit-transition: -webkit-transform 0.35s ease;
-  transition: -webkit-transform 0.35s ease;
-  transition: transform 0.35s ease;
-  transition: transform 0.35s ease, -webkit-transform 0.35s ease;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 .hero .thumb-card-wrapper .thumb-card img {
@@ -748,68 +748,68 @@ h2.heading {
     display: none !important;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-    -webkit-animation-delay: 32s;
-            animation-delay: 32s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-    -webkit-animation-delay: 1.5s;
-            animation-delay: 1.5s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
     -webkit-animation-delay: 8s;
             animation-delay: 8s;
   }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
+  .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
+    -webkit-animation-delay: 32s;
+            animation-delay: 32s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(3) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
+    -webkit-animation-delay: 18s;
+            animation-delay: 18s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
   }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
+    -webkit-animation-delay: 32s;
+            animation-delay: 32s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) .img-wrapper {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
   }
 }
 
@@ -1484,5 +1484,40 @@ h2.heading {
   .team .heading span {
     font-size: 3.5rem;
   }
+}
+
+.faq {
+  margin-top: 150px;
+}
+
+.faq .heading {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq .card {
+  border: none;
+  border-radius: 0;
+  color: #080918;
+}
+
+.faq .card-header {
+  background: #171838 !important;
+}
+
+.faq .card-body {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.faq .btn {
+  background: none;
+  border: none !important;
+  border-radius: 0;
+  display: initial;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */

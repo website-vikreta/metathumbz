@@ -1,0 +1,29 @@
+.faq {
+  margin-top: 150px;
+  .heading {
+    justify-content: center;
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+    color: $color-dark;
+  }
+
+  .card-header {
+    background: $color-light !important;
+  }
+  .card-body {
+    font-family: $font-chakra;
+  }
+  .btn {
+    background: none;
+    border: none !important;
+    border-radius: 0;
+    display: initial;
+    text-decoration: none;
+    color: $color-primary;
+    @include font-weight(regular);
+    padding: 0;
+  }
+}

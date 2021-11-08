@@ -1,0 +1,73 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-light stick-to-top" id="navbar">
+   <div class="container px-0">
+      <a class="navbar-brand" href="/">
+         <img src="./assets/logo.png" alt="MetaThumbz Logo" class="img-fluid nav-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Roadmap</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Inventory</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Rarity</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="../faq.html">Faq</a>
+            </li>
+         </ul>
+         <span class="navbar-text">
+            <a href="#" target="_BLANK"><i class="bi bi-discord"></i></a>
+            <a href="#" target="_BLANK"><i class="bi bi-twitter"></i></a>
+         </span>
+      </div>
+   </div>
+</nav>
+
+<script>
+   // navbar scrolling
+   const body = document.body;
+   const navbar = document.getElementById("navbar");
+   let previousScroll = 0;
+
+   window.addEventListener("scroll", () => {
+      currentScroll = window.pageYOffset;
+
+      //   stick to top class
+      if (currentScroll == 0) {
+         navbar.classList.add("stick-to-top");
+      } else {
+         navbar.classList.remove("stick-to-top");
+      }
+
+      previousScroll = currentScroll;
+   });
+
+   //active class
+   (function () {
+      var current = location.pathname.split('/')[1];
+      var menuItems = document.querySelectorAll('.nav-item ');
+      if (current === "" || current === "index.html" || current === "index") {
+         menuItems[0].className += " active";
+         return
+      };
+      for (var i = 0, len = menuItems.length; i < len; i++) {
+         if (menuItems[i].querySelector('a').getAttribute("href").indexOf(current) !== -1) {
+            menuItems[i].classList.add("active");
+         }
+      }
+   })();
+
+</script>
