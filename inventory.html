@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>MetaThumbz | Home</title>
+
+   <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Montserrat:wght@400;500;900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet">
+
+   <!-- Important js -->
+   <script src="./vendor/jquery/jquery.min.js"></script>
+
+   <!-- bootstrap css-->
+   <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+   <!-- custom css -->
+   <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+   <!-- ? ================================================== -->
+   <!-- ? NAVIGATION BAR -->
+   <!-- ? ================================================== -->
+   <div id="navigation"></div>
+
+
+   <!-- ? ================================================== -->
+   <!-- ? HERO -->
+   <!-- ? ================================================== -->
+   <section class="inventory-hero">
+      <div class="content container">
+         <div class="title">
+            <h4 class="sub-heading">Meta Thumbz</h4>
+            <h1 class="heading">
+               <div class="word">
+                  <span>I</span><span>n</span><span>v</span><span>e</span><span>n</span><span>t</span><span>o</span><span>r</span><span>y</span>
+               </div>
+            </h1>
+         </div>
+
+         <p class="para">Here you will find all the characteristics of our belowed thumbz</p>
+
+         <div class="button-group">
+            <a href="#" class="btn btn-secondary">Explore All</a>
+            <a href="./#minting" class="btn btn-primary">Start Minting</a>
+         </div>
+      </div>
+
+      <!-- particle js -->
+      <div id="particles-js"></div>
+   </section>
+
+   <!-- ? ================================================== -->
+   <!-- ? INVENTORY -->
+   <!-- ? ================================================== -->
+   <section class="inventory">
+      <div class="container">
+         <!-- isotope buttons -->
+         <div class="button-group filters-button-group">
+            <button class="button is-checked" data-filter="*">show all</button>
+            <button class="button" data-filter=".head">Head</button>
+            <button class="button" data-filter=".eyes">Eyes</button>
+            <button class="button" data-filter=".lower-face">Lower Face</button>
+            <button class="button" data-filter=".neck">Neck</button>
+            <button class="button" data-filter=".cape">cape</button>
+            <button class="button" data-filter=".background">Background</button>
+            <button class="button" data-filter=".hand">hand</button>
+            <button class="button" data-filter=".extra-finger">Extra finger</button>
+         </div>
+
+         <!-- element grid -->
+         <div class="grid" id="elementGrid"></div>
+
+      </div>
+   </section>
+
+
+
+
+   <!-- bootstrap js -->
+   <script src="./vendor/bootstrap/bootstrap.min.js"></script>
+
+   <!-- particlejs js -->
+   <script src="./vendor/particlejs/js/particles.min.js"></script>
+   <script src="./vendor/particlejs/js/inventory-particles.js"></script>
+
+   <!-- Isotope -->
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+   <!-- custom js -->
+   <script src="./js/main.js"></script>
+   <script src="./json/inventory-items.js"></script>
+   <script src="./js/inventory.js"></script>
+</body>
+
+</html>

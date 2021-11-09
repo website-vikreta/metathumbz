@@ -1,0 +1,196 @@
+// *******************************
+// * Styling Hero Section
+// *******************************
+.inventory-hero {
+  margin-top: 0;
+  min-height: 110vh;
+  position: relative;
+
+  border-radius: 50% / 50%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+
+  box-shadow: 0px 4px 0px #000000, 0px 100px 200px #000000;
+
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  .heading {
+    justify-content: center;
+  }
+  .para {
+    margin-block: 2rem 3rem;
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  //   responsive
+  @include responsive(large) {
+    min-height: 100vh;
+    border-radius: 50% / 30%;
+  }
+
+  @include responsive(tablet) {
+    border-radius: 50% / 20%;
+    box-shadow: 0px 4px 0px #000000, 0px 100px 100px rgba(0, 0, 0, 0.5);
+  }
+
+  @include responsive(mobile) {
+    min-height: 90vh;
+  }
+}
+
+// *******************************
+// * Inventory SECTIOn
+// *******************************
+.inventory {
+  margin-bottom: 100px;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    overflow: hidden;
+    min-height: 50vh;
+    height: 100% !important;
+
+    .grid-item {
+      position: relative !important;
+      top: initial !important;
+      left: initial !important;
+      height: fit-content;
+
+      border: 1px solid $color-blue;
+      text-align: center;
+
+      p {
+        margin-block: 1rem;
+        font-family: $font-chakra;
+        @include font-weight(medium);
+      }
+
+      // rarity seperator
+      &.rare {
+        position: relative !important;
+        border-color: gold;
+        box-shadow: 0 0 50px 0 rgba($color: gold, $alpha: 0.3);
+        &::after {
+          content: "Rare";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: fit-content;
+          background: gold;
+          color: $color-dark;
+          text-transform: uppercase;
+          @include font-weight(bold);
+          font-family: $font-roboto;
+          padding: 5px 10px;
+          z-index: 10;
+        }
+      }
+
+      &.premium {
+        position: relative !important;
+        border-color: red;
+        &::after {
+          content: "100";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: fit-content;
+          background: red;
+          text-transform: uppercase;
+          @include font-weight(bold);
+          font-family: $font-roboto;
+          padding: 5px 10px;
+          z-index: 10;
+        }
+      }
+      &.basic {
+        position: relative !important;
+        border-color: lawngreen;
+        &::after {
+          content: "1000";
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: fit-content;
+          background: lawngreen;
+          text-transform: uppercase;
+          @include font-weight(bold);
+          color: $color-dark;
+          font-family: $font-roboto;
+          padding: 5px 10px;
+          z-index: 10;
+        }
+      }
+    }
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block: 100px 50px;
+    position: relative;
+    z-index: 1;
+
+    .button {
+      min-width: 100px;
+      padding: 10px;
+      background: $color-dark;
+      border: 1px solid $color-blue;
+      color: $color-primary;
+      outline: none;
+      text-transform: capitalize;
+
+      &.is-checked {
+        background: $color-blue;
+      }
+    }
+  }
+
+  //   responsive
+  @include responsive(medium) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @include responsive(tablet) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .button-group {
+      gap: 0.5rem;
+    }
+  }
+
+  @include responsive(mobile) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+    }
+
+    .button-group .button {
+      min-width: initial;
+    }
+  }
+}
