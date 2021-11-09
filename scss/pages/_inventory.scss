@@ -60,86 +60,118 @@
 // *******************************
 .inventory {
   margin-bottom: 100px;
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    overflow: hidden;
-    min-height: 50vh;
-    height: 100% !important;
 
-    .grid-item {
-      position: relative !important;
-      top: initial !important;
-      left: initial !important;
-      height: fit-content;
+  .slider-wrapper {
+    position: relative;
 
-      border: 1px solid $color-blue;
-      text-align: center;
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 105%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      display: flex;
+      justify-content: space-between;
 
-      p {
-        margin-block: 1rem;
-        font-family: $font-chakra;
-        @include font-weight(medium);
-      }
+      .btn {
+        min-width: initial;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background: white;
+        pointer-events: initial;
 
-      // rarity seperator
-      &.rare {
-        position: relative !important;
-        border-color: gold;
-        box-shadow: 0 0 50px 0 rgba($color: gold, $alpha: 0.3);
         &::after {
-          content: "Rare";
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: fit-content;
-          background: gold;
-          color: $color-dark;
-          text-transform: uppercase;
-          @include font-weight(bold);
-          font-family: $font-roboto;
-          padding: 5px 10px;
-          z-index: 10;
-        }
-      }
-
-      &.premium {
-        position: relative !important;
-        border-color: red;
-        &::after {
-          content: "100";
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: fit-content;
-          background: red;
-          text-transform: uppercase;
-          @include font-weight(bold);
-          font-family: $font-roboto;
-          padding: 5px 10px;
-          z-index: 10;
-        }
-      }
-      &.basic {
-        position: relative !important;
-        border-color: lawngreen;
-        &::after {
-          content: "1000";
-          position: absolute;
-          top: 0;
-          right: 0;
-          width: fit-content;
-          background: lawngreen;
-          text-transform: uppercase;
-          @include font-weight(bold);
-          color: $color-dark;
-          font-family: $font-roboto;
-          padding: 5px 10px;
-          z-index: 10;
+          display: none;
         }
       }
     }
+  }
+
+  .card {
+    position: relative;
+    border: 1px solid $color-blue;
+    border-radius: 0;
+    background: $color-dark;
+    text-align: center;
+    margin: 0 0.5rem;
+
+    p {
+      margin-block: 1rem;
+      font-family: $font-chakra;
+      @include font-weight(medium);
+    }
+
+    // rarity seperator
+    &.rare {
+      position: relative !important;
+      box-shadow: 0 0 50px 0 rgba($color: gold, $alpha: 0.1);
+      &::after {
+        content: "Rare";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: fit-content;
+        background: gold;
+        color: $color-dark;
+        text-transform: uppercase;
+        @include font-weight(bold);
+        font-family: $font-roboto;
+        padding: 5px 10px;
+        z-index: 10;
+      }
+    }
+
+    &.premium {
+      position: relative !important;
+      &::after {
+        content: "100";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: fit-content;
+        background: red;
+        text-transform: uppercase;
+        @include font-weight(bold);
+        font-family: $font-roboto;
+        padding: 5px 10px;
+        z-index: 10;
+      }
+    }
+    &.basic {
+      position: relative !important;
+      &::after {
+        content: "1000";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: fit-content;
+        background: lawngreen;
+        text-transform: uppercase;
+        @include font-weight(bold);
+        color: $color-dark;
+        font-family: $font-roboto;
+        padding: 5px 10px;
+        z-index: 10;
+      }
+    }
+  }
+
+  h3.sub-heading {
+    font-family: $font-roboto;
+    font-size: 1.15rem;
+    white-space: nowrap;
+    .line {
+      width: 100%;
+      height: 1px;
+      background: $color-blue;
+      opacity: 0.5;
+    }
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-block: 2rem;
   }
 
   .button-group {
@@ -147,7 +179,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-block: 100px 50px;
+    margin-block: 100px 80px;
     position: relative;
     z-index: 1;
 
@@ -168,27 +200,28 @@
 
   //   responsive
   @include responsive(medium) {
-    .grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
   }
 
   @include responsive(tablet) {
-    .grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
     .button-group {
       gap: 0.5rem;
+    }
+
+    .slider-wrapper {
+      .slider-btn {
+        .btn {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+
+    .card::after {
+      font-size: 0.8rem !important;
     }
   }
 
   @include responsive(mobile) {
-    .grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.5rem;
-    }
-
     .button-group .button {
       min-width: initial;
     }

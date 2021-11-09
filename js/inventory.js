@@ -2,47 +2,94 @@
 const inventoryItems = items; // these items are from invetory-items.js
 
 inventoryItems.map((item) => {
-  console.log(item);
-  $("#elementGrid").append(`
-  
-   <div class="grid-item ${item.category} ${item.rarity}" data-category=${item.category}>
+  // creating card
+  const card = `
+    <div class="card ${item.category} ${item.rarity}" data-filter=${item.category}>
       <img class="img-fluid" src=${item.image} />
       <p>${item.name}</p>
-   </div>
-  
-  `);
+    </div>
+ `;
+
+  if (item.rarity == "rare") {
+    $("#rare-slider").append(card);
+  } else if (item.rarity == "premium") {
+    $("#100-slider").append(card);
+  } else if (item.rarity === "basic") {
+    $("#1000-slider").append(card);
+  } else {
+    $("#common-slider").append(card);
+  }
+  // $("#elementGrid").append();
 });
 
-// init Isotope
-var $grid = $(".grid").isotope({
-  // options
-  itemSelector: ".grid-item",
+const sliderWrapper = document.querySelectorAll(".slider-wrapper");
+sliderWrapper.forEach((wrap) => {
+  const slider = wrap.querySelector(".slider");
+
+  $(slider).slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    prevArrow: wrap.querySelector(".btn-left"),
+    nextArrow: wrap.querySelector(".btn-right"),
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
 });
-// change is-checked class on buttons
-var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function () {
-    var number = $(this).find(".number").text();
-    return parseInt(number, 10) > 50;
-  },
-  // show if name ends with -ium
-  ium: function () {
-    var name = $(this).find(".name").text();
-    return name.match(/ium$/);
-  },
-};
-// bind filter button click
-$(".filters-button-group").on("click", "button", function () {
-  var filterValue = $(this).attr("data-filter");
-  // use filterFn if matches value
-  filterValue = filterFns[filterValue] || filterValue;
-  $grid.isotope({ filter: filterValue });
-});
-// change is-checked class on buttons
-$(".button-group").each(function (i, buttonGroup) {
+
+$(".filters-button-group").each(function (i, buttonGroup) {
   var $buttonGroup = $(buttonGroup);
   $buttonGroup.on("click", "button", function () {
     $buttonGroup.find(".is-checked").removeClass("is-checked");
     $(this).addClass("is-checked");
+
+    var filter = $(this).data("filter");
+    console.log(filter);
+
+    $(".slider").slick("slickUnfilter");
+    switch (filter) {
+      case "head":
+        $(".slider").slick("slickFilter", ".head");
+        break;
+      case "eyes":
+        $(".slider").slick("slickFilter", ".eyes");
+        break;
+      case "lower-face":
+        $(".slider").slick("slickFilter", ".lower-face");
+        break;
+      case "neck":
+        $(".slider").slick("slickFilter", ".neck");
+        break;
+      case "cape":
+        $(".slider").slick("slickFilter", ".cape");
+        break;
+      case "background":
+        $(".slider").slick("slickFilter", ".background");
+        break;
+      case "hand":
+        $(".slider").slick("slickFilter", ".hand");
+        break;
+      case "extra-finger":
+        $(".slider").slick("slickFilter", ".extra-finger");
+        break;
+      default:
+        $(".slider").slick("slickUnfilter");
+    }
   });
 });
