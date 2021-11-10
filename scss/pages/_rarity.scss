@@ -1,0 +1,119 @@
+.rarity-hero {
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  //   styling tape
+  .tape-wrapper {
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10vw;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        $color-dark 0,
+        rgba($color-dark, 0) 100%
+      );
+      z-index: 1;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 10vw;
+      height: 100%;
+      background: linear-gradient(
+        to left,
+        $color-dark 0,
+        rgba($color-dark, 0) 100%
+      );
+      z-index: 1;
+    }
+  }
+  .list {
+    white-space: nowrap;
+
+    &.cloned {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+
+    .listitem {
+      float: left;
+      width: 150px;
+
+      &:not(:first-child) {
+        margin-left: 1rem;
+      }
+
+      &:first-child {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  //   styling title
+  .title {
+    .heading {
+      justify-content: center;
+    }
+  }
+
+  //   slyling form
+  .rarity-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 600px;
+    width: 100%;
+
+    .form-control {
+      height: 50px;
+      outline: none !important;
+      box-shadow: none !important;
+      border-radius: 4px;
+      border: none;
+
+      font-family: $font-roboto;
+      @include font-weight(medium);
+      font-size: 1.1rem;
+      text-transform: uppercase;
+
+      &::placeholder {
+        text-transform: capitalize;
+        font-weight: initial;
+        font-size: initial;
+      }
+    }
+
+    .btn {
+      min-width: 200px;
+    }
+  }
+
+  @include responsive(tablet) {
+    .list .listitem {
+      width: 100px;
+    }
+
+    .rarity-form {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
