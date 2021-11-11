@@ -17,7 +17,7 @@ $clonedList.addClass("cloned").appendTo($tickerWrapper);
 
 //TimelineMax
 var infinite = new TimelineMax({ repeat: -1, paused: true });
-var time = 10;
+var time = 20;
 
 infinite
   .fromTo(
@@ -50,3 +50,23 @@ infinite
   .progress(1)
   .progress(0)
   .play();
+
+// !======================
+// ! Scroll to details
+// !=======================
+
+$("#show-rank").click(function (e) {
+  e.preventDefault();
+  $("#rarity-body").css({
+    overflow: "initial",
+  });
+  $("#nft-detail").css({
+    opacity: 1,
+    visibility: "visible",
+  });
+  $("#rarity-arrow").css({
+    opacity: 1,
+    visibility: "visible",
+  });
+  window.location.href = "#nft-detail";
+});

@@ -1,3 +1,7 @@
+#rarity-body {
+  overflow: hidden;
+}
+
 .rarity-hero {
   .container {
     min-height: 100vh;
@@ -114,6 +118,119 @@
     .rarity-form {
       flex-wrap: wrap;
       justify-content: center;
+    }
+  }
+}
+
+.rarity-down-arrow {
+  display: grid;
+  place-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+
+  i {
+    font-size: 1.5rem;
+  }
+  color: $color-blue;
+}
+
+.nft-detail {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  opacity: 0;
+  visibility: hidden;
+  .row {
+    align-items: center;
+  }
+  .img-wrapper {
+    padding-right: 100px;
+    margin-top: 20px;
+  }
+  .image {
+    position: relative;
+
+    .rarity {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+
+      min-width: 200px;
+      width: fit-content;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      background: $linear-gradient;
+
+      font-family: $font-chakra;
+      font-size: 1.25rem;
+      text-align: center;
+
+      span {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+
+    img {
+      border-radius: 10px;
+    }
+  }
+
+  // content
+
+  .nft-title {
+    @include font-weight(bold);
+    font-family: $font-montserrat;
+    font-size: 2.5rem;
+  }
+
+  .properties {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-family: $font-roboto;
+
+    .property {
+      padding: 1rem;
+      &:not(:last-child) {
+        border-bottom: 1px solid $color-blue;
+      }
+      &:nth-of-type(even) {
+        background: rgba($color: white, $alpha: 0.1);
+      }
+    }
+
+    .dict {
+      display: flex;
+      gap: 1rem;
+
+      .key {
+        min-width: 30%;
+      }
+
+      .value {
+        flex: 1;
+      }
+    }
+  }
+
+  @include responsive(medium) {
+    margin-bottom: 50px;
+    .img-wrapper {
+      padding-right: 15px;
+    }
+
+    .nft-title {
+      text-align: center;
+      margin-block: 2rem;
+    }
+
+    .dict {
+      .key {
+        flex: 1;
+      }
     }
   }
 }

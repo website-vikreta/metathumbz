@@ -487,73 +487,73 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-  -webkit-animation-delay: 50s;
-          animation-delay: 50s;
+  -webkit-animation-delay: 45s;
+          animation-delay: 45s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(3) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(4) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-  -webkit-animation-delay: 42s;
-          animation-delay: 42s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(4) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
-
 .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-  -webkit-animation-delay: 70s;
-          animation-delay: 70s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-  -webkit-animation-delay: 36s;
-          animation-delay: 36s;
+  -webkit-animation-delay: 65s;
+          animation-delay: 65s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
@@ -562,78 +562,78 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(8) .img-wrapper {
-  -webkit-animation-delay: 32s;
-          animation-delay: 32s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(9) {
-  -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(9) .img-wrapper {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(10) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
-  -webkit-animation-delay: 48s;
-          animation-delay: 48s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(11) {
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
-  -webkit-animation-delay: 27s;
-          animation-delay: 27s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(12) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(12) .img-wrapper {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(13) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(13) .img-wrapper {
   -webkit-animation-delay: 24s;
           animation-delay: 24s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(14) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+.hero .thumb-card-wrapper .thumb-card:nth-child(9) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(14) .img-wrapper {
+.hero .thumb-card-wrapper .thumb-card:nth-child(9) .img-wrapper {
   -webkit-animation-delay: 8s;
           animation-delay: 8s;
 }
 
+.hero .thumb-card-wrapper .thumb-card:nth-child(10) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(11) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(12) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(12) .img-wrapper {
+  -webkit-animation-delay: 48s;
+          animation-delay: 48s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(13) {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(13) .img-wrapper {
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(14) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(14) .img-wrapper {
+  -webkit-animation-delay: 24s;
+          animation-delay: 24s;
+}
+
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) {
-  -webkit-animation-delay: 6.5s;
-          animation-delay: 6.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) .img-wrapper {
-  -webkit-animation-delay: 45s;
-          animation-delay: 45s;
+  -webkit-animation-delay: 60s;
+          animation-delay: 60s;
 }
 
 .hero .thumb-card-wrapper .thumb-card .img-wrapper {
@@ -752,68 +752,68 @@ h2.heading {
     display: none !important;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-    -webkit-animation-delay: 20s;
-            animation-delay: 20s;
+    -webkit-animation-delay: 40s;
+            animation-delay: 40s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
-    -webkit-animation-delay: 16s;
-            animation-delay: 16s;
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-    -webkit-animation-delay: 24s;
-            animation-delay: 24s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
     -webkit-animation-delay: 1.5s;
             animation-delay: 1.5s;
   }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-    -webkit-animation-delay: 18s;
-            animation-delay: 18s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-    -webkit-animation-delay: 24s;
-            animation-delay: 24s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
+  .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
     -webkit-animation-delay: 12s;
             animation-delay: 12s;
   }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
+  }
   .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-    -webkit-animation-delay: 32s;
-            animation-delay: 32s;
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
-    -webkit-animation-delay: 3.5s;
-            animation-delay: 3.5s;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) .img-wrapper {
-    -webkit-animation-delay: 20s;
-            animation-delay: 20s;
+    -webkit-animation-delay: 16s;
+            animation-delay: 16s;
   }
 }
 
@@ -1792,6 +1792,10 @@ h2.heading {
   }
 }
 
+#rarity-body {
+  overflow: hidden;
+}
+
 .rarity-hero .container {
   min-height: 100vh;
   display: -webkit-box;
@@ -1933,6 +1937,134 @@ h2.heading {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+.rarity-down-arrow {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  visibility: hidden;
+  color: #5d5fef;
+}
+
+.rarity-down-arrow i {
+  font-size: 1.5rem;
+}
+
+.nft-detail {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nft-detail .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nft-detail .img-wrapper {
+  padding-right: 100px;
+  margin-top: 20px;
+}
+
+.nft-detail .image {
+  position: relative;
+}
+
+.nft-detail .image .rarity {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+  min-width: 200px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background: linear-gradient(130deg, #5d5fef 10%, #00acee 83.52%);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.nft-detail .image .rarity span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nft-detail .image img {
+  border-radius: 10px;
+}
+
+.nft-detail .nft-title {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nft-detail .properties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.nft-detail .properties .property {
+  padding: 1rem;
+}
+
+.nft-detail .properties .property:not(:last-child) {
+  border-bottom: 1px solid #5d5fef;
+}
+
+.nft-detail .properties .property:nth-of-type(even) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nft-detail .properties .dict {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.nft-detail .properties .dict .key {
+  min-width: 30%;
+}
+
+.nft-detail .properties .dict .value {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .nft-detail {
+    margin-bottom: 50px;
+  }
+  .nft-detail .img-wrapper {
+    padding-right: 15px;
+  }
+  .nft-detail .nft-title {
+    text-align: center;
+    margin-block: 2rem;
+  }
+  .nft-detail .dict .key {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
 }
 
