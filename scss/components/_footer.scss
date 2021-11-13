@@ -1,0 +1,70 @@
+footer {
+  background: black;
+  padding-top: 80px;
+
+  h3 {
+    @include font-weight(bold);
+  }
+
+  .social {
+    display: flex;
+    gap: 1rem;
+    margin-block: 2rem;
+
+    i {
+      font-size: 1.5rem;
+      transition: 0.35s ease;
+    }
+
+    a:hover i {
+      color: $color-blue;
+    }
+  }
+
+  .link-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+    a {
+      color: $color-blue;
+      display: flex;
+      align-items: center;
+    }
+
+    i {
+      color: $color-primary;
+      margin-right: 5px;
+      font-size: 0.7rem;
+    }
+  }
+
+  .credits {
+    border-top: 1px solid rgba($color: $color-blue, $alpha: 0.4);
+    .container {
+      padding-block: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .para {
+        margin: 0;
+        font-size: 0.9rem;
+        font-family: $font-roboto;
+
+        a {
+          color: $color-blue;
+        }
+      }
+    }
+  }
+  @include responsive(tablet) {
+    .credits {
+      margin-top: 2rem;
+      .container {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+}

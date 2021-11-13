@@ -376,6 +376,97 @@ h2.heading {
   }
 }
 
+footer {
+  background: black;
+  padding-top: 80px;
+}
+
+footer h3 {
+  font-weight: 700;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+footer .social i {
+  font-size: 1.5rem;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+
+footer .social a:hover i {
+  color: #5d5fef;
+}
+
+footer .link-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+footer .link-wrapper a {
+  color: #5d5fef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .link-wrapper i {
+  color: white;
+  margin-right: 5px;
+  font-size: 0.7rem;
+}
+
+footer .credits {
+  border-top: 1px solid rgba(93, 95, 239, 0.4);
+}
+
+footer .credits .container {
+  padding-block: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .credits .container .para {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .credits .container .para a {
+  color: #5d5fef;
+}
+
+@media screen and (max-width: 768px) {
+  footer .credits {
+    margin-top: 2rem;
+  }
+  footer .credits .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .hero {
   margin-top: 100px;
 }
@@ -487,73 +578,73 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-  -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(2) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
   -webkit-animation-delay: 50s;
           animation-delay: 50s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-  -webkit-animation-delay: 48s;
-          animation-delay: 48s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(4) {
+.hero .thumb-card-wrapper .thumb-card:nth-child(2) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
+.hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
+  -webkit-animation-delay: 56s;
+          animation-delay: 56s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
+  -webkit-animation-delay: 42s;
+          animation-delay: 42s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(4) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
 .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 60s;
+          animation-delay: 60s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
+  -webkit-animation-delay: 28s;
+          animation-delay: 28s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-  -webkit-animation-delay: 32s;
-          animation-delay: 32s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
@@ -562,18 +653,18 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(8) .img-wrapper {
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(9) {
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(9) .img-wrapper {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(10) {
@@ -582,8 +673,8 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(11) {
@@ -592,8 +683,8 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
-  -webkit-animation-delay: 55s;
-          animation-delay: 55s;
+  -webkit-animation-delay: 36s;
+          animation-delay: 36s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(12) {
@@ -602,23 +693,23 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(12) .img-wrapper {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 16s;
+          animation-delay: 16s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(13) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(13) .img-wrapper {
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s;
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(14) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(14) .img-wrapper {
@@ -627,13 +718,13 @@ h2.heading {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) .img-wrapper {
-  -webkit-animation-delay: 21s;
-          animation-delay: 21s;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
 }
 
 .hero .thumb-card-wrapper .thumb-card .img-wrapper {
@@ -752,68 +843,68 @@ h2.heading {
     display: none !important;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-    -webkit-animation-delay: 21s;
-            animation-delay: 21s;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(3) {
     -webkit-animation-delay: 1.5s;
             animation-delay: 1.5s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
     -webkit-animation-delay: 20s;
             animation-delay: 20s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
     -webkit-animation-delay: 0.5s;
             animation-delay: 0.5s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-    -webkit-animation-delay: 25s;
-            animation-delay: 25s;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) .img-wrapper {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
   }
 }
 
@@ -1857,7 +1948,7 @@ h2.heading {
 }
 
 .faq {
-  margin-top: 150px;
+  margin-block: 150px 100px;
 }
 
 .faq .heading {
@@ -2435,7 +2526,7 @@ h2.heading {
 }
 
 .buy-now {
-  margin-top: 200px;
+  margin-block: 200px 100px;
 }
 
 .buy-now .title {
