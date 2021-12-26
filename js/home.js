@@ -1,7 +1,7 @@
 // Hero Timer
 // --------------------------------------------------------------------
 var upgradeTime =
-  new Date("2021-12-15").getTime() / 1000 - new Date().getTime() / 1000;
+  new Date("2022-02-15").getTime() / 1000 - new Date().getTime() / 1000;
 var seconds = upgradeTime;
 
 function timer() {
