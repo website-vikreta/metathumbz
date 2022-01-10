@@ -1,3 +1,4 @@
+/* Arrows with sass */
 * {
   margin: 0;
   padding: 0;
@@ -578,13 +579,13 @@ footer .credits .container .para a {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-  -webkit-animation-delay: 6.5s;
-          animation-delay: 6.5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-  -webkit-animation-delay: 50s;
-          animation-delay: 50s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
@@ -593,58 +594,58 @@ footer .credits .container .para a {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
-  -webkit-animation-delay: 56s;
-          animation-delay: 56s;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
-  -webkit-animation-delay: 42s;
-          animation-delay: 42s;
+  -webkit-animation-delay: 22s;
+          animation-delay: 22s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-  -webkit-animation-delay: 60s;
-          animation-delay: 60s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-  -webkit-animation-delay: 7.5s;
-          animation-delay: 7.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-  -webkit-animation-delay: 28s;
-          animation-delay: 28s;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 20s;
+          animation-delay: 20s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-  -webkit-animation-delay: 40s;
-          animation-delay: 40s;
+  -webkit-animation-delay: 33s;
+          animation-delay: 33s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
@@ -658,63 +659,63 @@ footer .credits .container .para a {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(9) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(9) .img-wrapper {
-  -webkit-animation-delay: 36s;
-          animation-delay: 36s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(10) {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
 
-.hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(11) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
-  -webkit-animation-delay: 36s;
-          animation-delay: 36s;
-}
-
-.hero .thumb-card-wrapper .thumb-card:nth-child(12) {
+.hero .thumb-card-wrapper .thumb-card:nth-child(9) .img-wrapper {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
 
+.hero .thumb-card-wrapper .thumb-card:nth-child(10) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(10) .img-wrapper {
+  -webkit-animation-delay: 70s;
+          animation-delay: 70s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(11) {
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(11) .img-wrapper {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.hero .thumb-card-wrapper .thumb-card:nth-child(12) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
 .hero .thumb-card-wrapper .thumb-card:nth-child(12) .img-wrapper {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(13) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(13) .img-wrapper {
-  -webkit-animation-delay: 30s;
-          animation-delay: 30s;
+  -webkit-animation-delay: 27s;
+          animation-delay: 27s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(14) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(14) .img-wrapper {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) {
@@ -723,8 +724,8 @@ footer .credits .container .para a {
 }
 
 .hero .thumb-card-wrapper .thumb-card:nth-child(15) .img-wrapper {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
 }
 
 .hero .thumb-card-wrapper .thumb-card .img-wrapper {
@@ -843,68 +844,68 @@ footer .credits .container .para a {
     display: none !important;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(1) {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
   }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(1) .img-wrapper {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(2) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
   .hero .thumb-card-wrapper .thumb-card:nth-child(2) .img-wrapper {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    -webkit-animation-delay: 7s;
+            animation-delay: 7s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(3) {
-    -webkit-animation-delay: 1.5s;
-            animation-delay: 1.5s;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(3) .img-wrapper {
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(4) {
-    -webkit-animation-delay: 1.5s;
-            animation-delay: 1.5s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
-    -webkit-animation-delay: 20s;
-            animation-delay: 20s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
-    -webkit-animation-delay: 9s;
-            animation-delay: 9s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
-  }
-  .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
     -webkit-animation-delay: 0.5s;
             animation-delay: 0.5s;
   }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(4) .img-wrapper {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(5) .img-wrapper {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(6) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(6) .img-wrapper {
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
+  }
+  .hero .thumb-card-wrapper .thumb-card:nth-child(7) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
   .hero .thumb-card-wrapper .thumb-card:nth-child(7) .img-wrapper {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) {
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
   }
   .hero .thumb-card-wrapper .thumb-card:nth-child(8) .img-wrapper {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
   }
 }
 
@@ -1828,6 +1829,331 @@ footer .credits .container .para a {
   }
   .roadmap .card .card-heading {
     gap: 1rem;
+  }
+}
+
+.roadmap-new {
+  margin-bottom: 20vh;
+}
+
+.roadmap-new .title {
+  margin-block: 100px;
+}
+
+.roadmap-new .title .heading {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.roadmap-new .row {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.roadmap-new .stage-wrapper {
+  padding-inline: 2rem;
+}
+
+.roadmap-new .stage-wrapper.stage-4 {
+  padding-inline: 0.25rem;
+}
+
+.roadmap-new .road {
+  margin-top: -1.8rem;
+}
+
+.roadmap-new .card {
+  --pin-size: 80px;
+  -webkit-animation: bounce 2s ease-in-out infinite;
+          animation: bounce 2s ease-in-out infinite;
+  --card-color: #5d5fef;
+  left: 50%;
+  top: -3rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: var(--pin-size);
+  height: calc(var(--pin-size) + 10px);
+  border-radius: var(--pin-size);
+  padding: 8px;
+  position: relative;
+  background: var(--card-color);
+  position: absolute;
+  z-index: 200;
+}
+
+.roadmap-new .card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: calc(var(--pin-size) / 2.15) solid transparent;
+  border-right: calc(var(--pin-size) / 2.15) solid transparent;
+  border-top: calc(var(--pin-size) / 2.15) solid var(--card-color);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50.5%, 55%);
+          transform: translate(-50.5%, 55%);
+  border-radius: 100px;
+  z-index: -1;
+}
+
+.roadmap-new .card__thumb-image {
+  background: white;
+  border-radius: 100%;
+  padding: 5px;
+  width: 100%;
+}
+
+.roadmap-new .card .para {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.roadmap-new .card .content {
+  width: calc(100% - 12px);
+  height: calc(100% - 10px);
+  -webkit-transition: width 0.35s ease, height 0.35s ease;
+  transition: width 0.35s ease, height 0.35s ease;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.roadmap-new .card .content__text {
+  width: calc(400px - 3rem);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.roadmap-new .card .content__text .para {
+  margin: 0;
+}
+
+.roadmap-new .card .content__title {
+  text-align: center;
+  color: var(--card-color);
+  font-weight: bold;
+}
+
+.roadmap-new .card .content__title + .para {
+  text-align: center;
+  margin: 0;
+}
+
+.roadmap-new .card .content__button {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: var(--card-color);
+  width: 80%;
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.roadmap-new .card .content__button:hover {
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.roadmap-new .card .content .perks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.roadmap-new .card .content .perks__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  color: #080918;
+}
+
+.roadmap-new .card .content .perks__item i {
+  color: var(--card-color);
+}
+
+.roadmap-new .card:hover {
+  background: transparent;
+  -webkit-animation: none;
+          animation: none;
+}
+
+.roadmap-new .card:hover::after {
+  border-color: transparent;
+}
+
+.roadmap-new .card:hover .content {
+  width: 400px;
+  height: auto;
+  background: white;
+  padding: 40px 1.5rem 5vh;
+  overflow: visible;
+  border: 2px solid var(--card-color);
+}
+
+.roadmap-new .card:hover .content__text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.roadmap-new .card:hover .content .card__thumb-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40%;
+  max-width: 120px;
+  padding: 5%;
+  border: none;
+  border-top: 1px solid var(--card-color);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom, #fff 50%, rgba(255, 255, 255, 0));
+}
+
+@media screen and (max-width: 1300px) {
+  .roadmap-new .card .content__text {
+    width: calc(350px - 3rem);
+  }
+  .roadmap-new .card .content .perks {
+    gap: 0.5rem;
+  }
+  .roadmap-new .card .content .perks__item {
+    font-size: 0.8rem;
+  }
+  .roadmap-new .card:hover .content {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .roadmap-new .card {
+    width: calc(50% - 10px);
+    height: initial;
+    position: initial;
+    -webkit-transform: initial;
+            transform: initial;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-animation: none;
+            animation: none;
+    background: transparent;
+  }
+  .roadmap-new .card::after {
+    border-color: transparent;
+  }
+  .roadmap-new .card .content {
+    height: 100% !important;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    position: relative;
+    left: 0;
+    top: 0;
+    -webkit-transform: initial;
+            transform: initial;
+    height: auto;
+    background: white;
+    padding: 40px 1.5rem 5vh;
+    overflow: visible;
+    border: 1px solid var(--card-color);
+  }
+  .roadmap-new .card .content__text {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+  .roadmap-new .card .content .card__thumb-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 40%;
+    max-width: 120px;
+    padding: 5%;
+    border: none;
+    border-top: 1px solid var(--card-color);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to bottom, #fff 50%, rgba(255, 255, 255, 0));
+  }
+  .roadmap-new .card:hover .content {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap-new {
+    margin-bottom: 10vh;
+  }
+  .roadmap-new .stage-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    gap: 1rem;
+    margin-block: 2rem;
+    padding-inline: 0.5rem 1rem !important;
+  }
+  .roadmap-new .stage-wrapper .stage-img {
+    max-width: 80px;
+  }
+  .roadmap-new .road {
+    display: none;
+  }
+  .roadmap-new .card {
+    width: 100%;
+    margin: 0;
+    z-index: initial !important;
+    top: initial;
+  }
+  .roadmap-new .card .content {
+    padding: 40px 1rem 3rem 1rem;
+  }
+  .roadmap-new .card .content .card__thumb-image {
+    width: 100px;
+  }
+  .roadmap-new .card .content:hover {
+    padding: 40px 1rem 3rem 1rem;
+  }
+  .roadmap-new .card .content:hover .card__thumb-image {
+    width: 100px;
   }
 }
 

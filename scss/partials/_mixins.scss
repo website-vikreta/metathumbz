@@ -9,3 +9,51 @@ $viewportMap: (
     @content;
   }
 }
+
+// pseudo element mixin
+@mixin pseudo($display: block, $pos: absolute, $content: "") {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+// ! ----------- Z-Index ------------
+$z-index: (
+  popup: 200,
+  navigation: 100,
+  buttons: 50,
+  pseudoBefore: -1,
+  pseudoAfter: -2,
+);
+
+@function z-index($key) {
+  @return map-get($z-index, $key);
+}
+
+@mixin z-index($key) {
+  z-index: z-index($key);
+}
+
+/* Arrows with sass */
+@mixin arrow($direction: down, $size: 5px, $color: #555) {
+  width: 0;
+  height: 0;
+
+  @if ($direction==left) {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-right: $size solid $color;
+  } @else if ($direction==right) {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-left: $size solid $color;
+  } @else if ($direction==down) {
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-top: $size solid $color;
+  } @else {
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+  }
+}
