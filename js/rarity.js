@@ -55,6 +55,21 @@ infinite
 // ! Scroll to details
 // !=======================
 
+const rarityData = {
+  image: "path/to/image",
+  nftNumber: 202,
+  attributes: {
+    background: {
+      type: "grey",
+      value: 1.2020112,
+    },
+    hands: {
+      type: "naked",
+      value: 56.214,
+    },
+  },
+};
+
 $("#show-rank").click(function (e) {
   e.preventDefault();
   $("#rarity-body").css({
@@ -68,5 +83,13 @@ $("#show-rank").click(function (e) {
     opacity: 1,
     visibility: "visible",
   });
+
+  // feed nft info
+  $("#typeBackground").text(rarityData.attributes.background.type);
+  $("#valueBackground").text(rarityData.attributes.background.value);
+
+  $("#typeHands").text(rarityData.attributes.hands.type);
+  $("#valueHands").text(rarityData.attributes.hands.value);
+
   window.location.href = "#nft-detail";
 });

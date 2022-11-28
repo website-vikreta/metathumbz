@@ -2,10 +2,24 @@
 <html lang="en">
 
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XG774SM0G1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-XG774SM0G1');
+   </script>
+   <!-- analytics end -->
+
    <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>MetaThumbz | Inventory</title>
+   <title>Inventory | MetaThumbz</title>
+
+   <!-- favicon -->
+   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
 
    <!-- google fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,14 +83,13 @@
          <!-- isotope buttons -->
          <div class="button-group filters-button-group">
             <button class="button is-checked" data-filter="all">show all</button>
-            <button class="button" data-filter="head">Head</button>
+            <button class="button" data-filter="background">Background</button>
+            <button class="button" data-filter="hand">Hand</button>
+            <button class="button" data-filter="eyebrows">Eyebrows</button>
             <button class="button" data-filter="eyes">Eyes</button>
+            <button class="button" data-filter="head">Head</button>
             <button class="button" data-filter="lower-face">Lower Face</button>
             <button class="button" data-filter="neck">Neck</button>
-            <button class="button" data-filter="cape">cape</button>
-            <button class="button" data-filter="background">Background</button>
-            <button class="button" data-filter="hand">hand</button>
-            <button class="button" data-filter="extra-finger">Extra finger</button>
          </div>
 
          <!-- element grid -->
@@ -86,7 +99,7 @@
          <!-- ===================================== -->
          <!-- rare slider -->
          <h3 class="sub-heading">
-            Rare NFTs <div class="line"></div>
+            Rare <div class="line"></div>
          </h3>
          <div class="slider-wrapper">
             <div class="rare-slider slider" id="rare-slider"></div>
@@ -98,34 +111,23 @@
 
          <!-- 100 rarity slider -->
          <h3 class="sub-heading">
-            NFT with 100 Rarity <div class="line"></div>
+            Uncommon <div class="line"></div>
          </h3>
          <div class="slider-wrapper">
-            <div class="100-slider slider" id="100-slider"></div>
+            <div class="100-slider slider" id="uncommon-slider"></div>
             <div class="slider-btn">
                <button class="btn btn-left"><i class="bi bi-chevron-left"></i></button>
                <button class="btn btn-right"><i class="bi bi-chevron-right"></i></button>
             </div>
          </div>
 
-         <!-- 1000 slider -->
-         <h3 class="sub-heading">
-            NFT with 1000 Rarity <div class="line"></div>
-         </h3>
-         <div class="slider-wrapper">
-            <div class="1000-slider slider" id="1000-slider"></div>
-            <div class="slider-btn">
-               <button class="btn btn-left"><i class="bi bi-chevron-left"></i></button>
-               <button class="btn btn-right"><i class="bi bi-chevron-right"></i></button>
-            </div>
-         </div>
 
          <!-- common slider -->
          <h3 class="sub-heading">
-            Common NFTs <div class="line"></div>
+            Regular <div class="line"></div>
          </h3>
          <div class="slider-wrapper">
-            <div class="common-slider slider" id="common-slider"></div>
+            <div class="common-slider slider" id="regular-slider"></div>
             <div class="slider-btn">
                <button class="btn btn-left"><i class="bi bi-chevron-left"></i></button>
                <button class="btn btn-right"><i class="bi bi-chevron-right"></i></button>

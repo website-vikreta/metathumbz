@@ -65,6 +65,7 @@
   //   social liks
   .navbar-text {
     display: flex;
+    align-items: center;
     gap: 1.5rem;
     a {
       color: $color-primary !important;
@@ -73,6 +74,15 @@
 
     a:hover {
       color: $color-blue !important;
+    }
+
+    .btn {
+      height: 40px;
+      font-size: 1rem;
+      font-weight: normal;
+      &:hover {
+        color: white !important;
+      }
     }
   }
 

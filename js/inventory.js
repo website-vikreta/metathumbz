@@ -1,5 +1,5 @@
 // adding elements
-const inventoryItems = items; // these items are from invetory-items.js
+const inventoryItems = shuffleArray(items); // these items are from invetory-items.js
 
 inventoryItems.map((item) => {
   // creating card
@@ -12,12 +12,10 @@ inventoryItems.map((item) => {
 
   if (item.rarity == "rare") {
     $("#rare-slider").append(card);
-  } else if (item.rarity == "premium") {
-    $("#100-slider").append(card);
-  } else if (item.rarity === "basic") {
-    $("#1000-slider").append(card);
-  } else {
-    $("#common-slider").append(card);
+  } else if (item.rarity == "uncommon") {
+    $("#uncommon-slider").append(card);
+  } else if (item.rarity === "regular") {
+    $("#regular-slider").append(card);
   }
   // $("#elementGrid").append();
 });
@@ -76,20 +74,38 @@ $(".filters-button-group").each(function (i, buttonGroup) {
       case "neck":
         $(".slider").slick("slickFilter", ".neck");
         break;
-      case "cape":
-        $(".slider").slick("slickFilter", ".cape");
-        break;
       case "background":
         $(".slider").slick("slickFilter", ".background");
         break;
       case "hand":
         $(".slider").slick("slickFilter", ".hand");
         break;
-      case "extra-finger":
-        $(".slider").slick("slickFilter", ".extra-finger");
+      case "eyebrows":
+        $(".slider").slick("slickFilter", ".eyebrows");
         break;
       default:
         $(".slider").slick("slickUnfilter");
     }
   });
 });
+
+// shuffle object
+function shuffleArray(array) {
+  let currentIndex = array.length,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}

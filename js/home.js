@@ -38,7 +38,8 @@ function timer() {
     seconds--;
   }
 }
-var countdownTimer = setInterval("timer()", 1000);
+// ! uncomment this to enable timer
+// var countdownTimer = setInterval("timer()", 1000);
 
 // Minting form
 // --------------------------------------------------------------------
@@ -72,3 +73,7 @@ plus.on("click", function (e) {
     textValue.val(parseInt(textValue.val()) + 1);
   }
 });
+
+// MINTING TEXT
+
+new CircleType(document.getElementById("minting-text")).radius(600);
